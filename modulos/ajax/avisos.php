@@ -3,10 +3,10 @@
 	ob_start();
 	session_start();
 	// by: João Fernandes
-	$dbhost = "mysql367.umbler.com";
-	$dbuser = "site_doiscoelhos";
-	$dbpassword = "jhsf200699";
-	$dbdatabase = "site_doiscoelhos";
+	$dbhost = "";
+	$dbuser = "";
+	$dbpassword = "";
+	$dbdatabase = "";
  	$conexao = mysqli_connect($dbhost, $dbuser, $dbpassword) or die("<script>location.href=\"http://$siteURL/$PainelA/errodb.php\";</script>");
 	
 	mysqli_select_db($conexao, $dbdatabase, $conexao) or die("<script>location.href=\"http://$siteURL/$PainelA/errodb.php\";</script>");
